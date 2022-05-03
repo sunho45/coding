@@ -11,7 +11,7 @@ public class DEDEE {
 		double beforeTime = System.currentTimeMillis();
 		
 		for (int i = 0; i < 1048576; i++) {
-			nums[i] = (int) (Math.random() * 1048576);
+			nums[i] = (int) (Math.random() * 1048576);//랜덤가챠
 		}
 		
 		for(int i = 0; i < nums.length - 1; i++) {
