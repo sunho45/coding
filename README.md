@@ -48,8 +48,39 @@ stack[++top]=in;
 
 스택의 삭제 함수
 ```
+st.pop();
+
+private int pop(){
+if(st.isEmpty()){
+System.out.print("비었다!");
+}
+
+else{
+return stack[top--];
+}
+//이때  데이터를 완전히 삭제시키지는 못하고 없는 데이터로 인식. 추후 push할때 덮어 씌워짐
+
+}
 
 ```
+스택의 맨위의 값을 제거해서 반환
+
+
+스택의 피크함수
+```
+st.peek();
+
+private int peek(){
+if(st.isEmpty()){
+System.out.print("비었다!");
+}
+else 
+return stack[top];
+}
+```
+스택의 맨위의 값을 삭제시키지 않고 반환
+
+
 
 
 ###  문제를 풀어보아요
