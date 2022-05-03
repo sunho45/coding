@@ -124,7 +124,7 @@ return stack[top];
 
 
 
-### 큐의 각 함수 in java
+### 큐의 주요 함수 in java
 
 
 ### 큐의 활용
