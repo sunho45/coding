@@ -126,6 +126,10 @@ return stack[top];
 
 ### 큐의 주요 함수 in java
 
+```
+qu.isEmpty();
+```
+QUEUE가 비었으면 TRUE를 거짓이면 FALSE를 
 
 ### 큐의 활용
 
