@@ -125,12 +125,31 @@ return stack[top];
 
 
 ### 큐의 주요 함수 in java
+```
+Queue qu=new LinkedList();
+
+
+
+```
+queue를 받는 객체 qu 선언
 
 ```
 qu.isEmpty();
 ```
-QUEUE가 비었으면 TRUE를 거짓이면 FALSE를 
+QUEUE가 비었으면 TRUE를 거짓이면 FALSE를 반환
 
+큐의 삽입함수
+```
+int in=25;
+qu.offer(in);//25를 삽입
+
+
+
+```
+큐의 삭제함수
+```
+
+```
 ### 큐의 활용
 
 
