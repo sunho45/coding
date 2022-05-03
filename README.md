@@ -95,13 +95,21 @@ return stack[top];
 
 잘 못지킨 예 ex) A[(i+1])=0; 조건1,2만족 조건 3 불만족 
 
-한번 위의 예시를 만든 코드를 직접 돌려보자.
+한번 위의 예시를 내가 직접 만든 코드를 직접 돌려보도록 하자.
 
 ![image](https://user-images.githubusercontent.com/100903674/166528130-8b610d8d-00a7-400f-ae4d-860741af95ad.png)
 
 ㅇㅋ
 
+![image](https://user-images.githubusercontent.com/100903674/166532290-3056c4f9-9406-4f7f-8e4d-ed9c102605af.png)
+
+얍쓰 
+
+
 #### 후위 
+
+
+
 
 
 ## 큐
