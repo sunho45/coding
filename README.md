@@ -1,9 +1,56 @@
 
-# 알고리즘 분석해보아요
+# 알고리즘 분석해보아요 
 
 ## 스택
 
-### 스택의 각 함수
+스택은 후입선출(LIFO:LAST IN FIRST OUT) 즉 나중에 들어온게 처음으로 나가는 형식을 띄고 있다. 예를 들어 신선호라는 박스더미에서 가장 나중에 쌓인 호라는 박스가 먼저 치워지듯이 말이다.
+
+![image](https://user-images.githubusercontent.com/100903674/166491531-0325ad3d-6233-4a04-a0d6-08ec2eb5cc46.png)
+
+스택에서의 입출력은 맨위에서만 일어나고 스택의 중간에서 데이터를 삭제할 수는 없다.
+
+![image](https://user-images.githubusercontent.com/100903674/166492122-1aac67e3-eaf0-4b95-8ace-95b0d775a2a6.png)
+
+
+### 스택의 주요 함수 in java 
+
+```
+Stack<Integer> st=new Stack<Integer>();
+```
+ 스택 객체 변수 st 선언
+ 
+ 이때  매개변수 top은 넣을 배열의 위치를 결정 top=-1로 초기화
+ 
+ 스택이 비었는지 확인하는 함수
+ ```
+ st.isEmpty();
+
+private boolean isEmpty(){
+return top==-1;
+}
+```
+스택이 비었으면 TRUE 값을 그렇지 않으면 FALSE 값을 반환
+
+스택의 삽입함수
+
+```
+int in=25;
+st.push(in); //25를 넣음
+
+private void push(int in){
+stack[++top]=in;
+
+}
+
+
+```
+말 그대로 입력값을 삽입해주는 함수
+
+스택의 삭제 함수
+```
+
+```
+
 
 ###  문제를 풀어보아요
 
