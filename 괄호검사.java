@@ -60,14 +60,14 @@ Scanner sc=new Scanner (System.in);
 						
 	}	
 	if(st.isEmpty()) {
-		System.out.print("참");
+		System.out.print("제대로 지켜줬군요");
 	}
 		
 	else {
-		System.out.print("못지켰군요");
+		System.out.print("문법좀 지키세요");
 	}
 		
-		System.out.println(st.toString());		
+				
 }
-\\well made by sinsunho
+
 }
