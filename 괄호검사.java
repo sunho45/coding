@@ -67,7 +67,7 @@ Scanner sc=new Scanner (System.in);
 		System.out.print("문법좀 지키세요");
 	}
 		
-				
+		//well made by sunho		
 }
 
 }
