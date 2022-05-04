@@ -136,20 +136,32 @@ queue를 받는 객체 qu 선언
 ```
 qu.isEmpty();
 ```
-QUEUE가 비었으면 TRUE를 거짓이면 FALSE를 반환
+QUEUE가 비었으면 TRUE를 그렇지 않으면 FALSE를 반환
 
 큐의 삽입함수
 ```
 int in=25;
 qu.offer(in);//25를 삽입
-
-
-
 ```
 큐의 삭제함수
 ```
+qu.poll();
+qu.remove();
 
 ```
+queue 의 맨앞에 있는 값을 제거하고 반환시킨다..
+
+```
+qu.peek();
+```
+queue의 맨앞에 있는 값을 반환시킨다.
+
+
+
+
+
+
+
 ### 큐의 활용
 
 
