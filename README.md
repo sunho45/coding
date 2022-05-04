@@ -131,9 +131,9 @@ return stack[top];
 ---|---|---|---|---|      
 |0  | 1  | 2 | 3|4|
 
+![image](https://user-images.githubusercontent.com/100903674/166649588-b3c084e1-be74-4b08-a2bf-843a130e8c1d.png)
 
-
-
+![image](https://user-images.githubusercontent.com/100903674/166649714-45400814-6a21-4ce4-a9de-ee894d55ab73.png)
 
 
 
