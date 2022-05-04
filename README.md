@@ -112,7 +112,8 @@ return stack[top];
 
 #### 골드문제 입성 기념 오큰수 풀이
 
-![image](https://user-images.githubusercontent.com/100903674/166629010-9b5aa18d-7781-4969-9204-a68316ad5826.png)
+![image](https://user-images.githubusercontent.com/100903674/166629067-64fac603-dbd4-43c1-8bca-2f3cfbb3c119.png)
+
 
 
 
