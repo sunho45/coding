@@ -866,7 +866,7 @@ async def on_message(message):
     
             checknumber = 0
 
-bot.run('Nzg4MzU4MzM0MDIxNTAwOTI5.X9iV6Q.G8MNj1Rj0r9fidh5IWl805osE9g')
+bot.run()
 
 
 
