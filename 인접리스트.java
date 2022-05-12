@@ -1,11 +1,4 @@
 import java.io.*;
-
-
-
-
-
-
-
 import java.util.*;
 import java.util.Stack;
 import java.util.Arrays;
@@ -14,7 +7,7 @@ import java.util.StringTokenizer;
 class graph{
 	
 	
-int size;
+private int size;
 	
 	private ArrayList<ArrayList<Integer>> adjlist=new ArrayList();	
 	
@@ -57,15 +50,24 @@ public void put(int x,int y) {
 	
 	}
 	int[] arr=(int[]) new int[adjlist.get(x).size()];
+	int []arrl=(int[]) new int[adjlist.get(y).size()];
 	for(int i=0;i<(int) adjlist.get(x).size();i++) {
 	arr[i]=adjlist.get(x).get(i);	
 	}
+	for(int i=0;i<(int) adjlist.get(y).size();i++) {
+		arrl[i]=adjlist.get(y).get(i);	
+		}
 	Arrays.sort(arr);//정렬 딱대
+	Arrays.sort(arrl);
 	adjlist.get(x).clear();
+	adjlist.get(y).clear();
 	for(int i=0;i<arr.length;i++) {
 		adjlist.get(x).add(arr[i]);	
 		}
 
+	for(int i=0;i<arrl.length;i++) {
+		adjlist.get(y).add(arrl[i]);	
+		}
 
 
 }
