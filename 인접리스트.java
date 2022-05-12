@@ -55,21 +55,9 @@ public void put(int x,int y) {
 
 
 
-public void printGraphToAdjList() {
-    for(int i=1; i<adjlist.size(); i++) {
-        System.out.print("정점 " + i + "의 인접리스트");
-        
-        for(int j=0; j<adjlist.get(i).size(); j++) {
-            System.out.print(" -> " + adjlist.get(i).get(j));
-        }
-        System.out.println();
-    }
-	
-	
-	
-	
-}
-	
+public void printGraphToAdjList() {   
+        System.out.println(size);	
+}	
 }
 
 public class WordSort {
@@ -80,8 +68,8 @@ public class WordSort {
 	
 	public static void main(String[] args)throws IOException {
 	graph graph =new graph(6);
-	graph.put(1, 3);
-	graph.put(1, 2);
+	graph.inital();
+	graph.put(0, 0);
 	graph.printGraphToAdjList();
 	
 		
