@@ -56,7 +56,19 @@ public void put(int x,int y) {
 	adjlist.get(y).add(x);
 	
 	}
+	int[] arr=(int[]) new int[adjlist.get(x).size()];
+	for(int i=0;i<(int) adjlist.get(x).size();i++) {
+	arr[i]=adjlist.get(x).get(i);	
 	}
+	Arrays.sort(arr);//정렬 딱대
+	adjlist.get(x).clear();
+	for(int i=0;i<arr.length;i++) {
+		adjlist.get(x).add(arr[i]);	
+		}
+
+
+
+}
 	
 	
 
@@ -72,7 +84,11 @@ public void printGraphToAdjList() {
 for(int j=0;j<adjlist.get(i).size();j++) {
 			
 			System.out.print(adjlist.get(i).get(j));
-			
+			if(j==adjlist.get(i).size()-1){
+				
+				break;
+			}
+			System.out.print("->");
 		}
 		
 System.out.println();
@@ -97,6 +113,8 @@ public class WordSort {
 	graph graph =new graph(6);
 	graph.inital();
 	
+	graph.put(0, 2);
+	graph.put(0, 4);
 	graph.put(0, 0);
 	graph.printGraphToAdjList();
 	
@@ -104,5 +122,3 @@ public class WordSort {
 	}
 
 }
-	
-	
