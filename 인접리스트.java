@@ -112,12 +112,20 @@ public class WordSort {
 	
 	
 	public static void main(String[] args)throws IOException {
-	graph graph =new graph(6);
+	graph graph =new graph(7);
 	graph.inital();
 	
-	graph.put(0, 2);
-	graph.put(0, 4);
-	graph.put(0, 0);
+	graph.put(1,2);
+	graph.put(1,3);
+	graph.put(1,4);
+		graph.put(2,3);
+		graph.put(2,7);
+		graph.put(3,5);
+		graph.put(3,6);
+		graph.put(3,7);
+		graph.put(4,5);
+		graph.put(5,6);
+		graph.put(6,7);
 	graph.printGraphToAdjList();
 	
 		
