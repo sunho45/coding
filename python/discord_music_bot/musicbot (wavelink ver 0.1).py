@@ -98,4 +98,4 @@ async def stop(ctx):
     else:
         await ctx.send("뮤직봇이 아무 노래도 재생하지 않아 끄기 기능을 사용할 수 없어요!")
 
-bot.run('Nzg4NTg1ODU3NDQ3MzYyNTkx.GKeQYP.3IpaQtfIGFScpjyGFirOtS_ZNyj-d2mJmX8fPY')
+bot.run(token)
