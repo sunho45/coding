@@ -46,3 +46,9 @@ for i in range(len(arr)):
 또한 for문을 하나 만들어 후반에 줄어드는 정렬 값을 체크해 시간복잡도를 줄일 수 있을 것 같다.
 
 버블 정렬의 개선 버전으로 칵테일 정렬과 빗질 정렬이 있는데, 내가 생각한 방식과 어떤 점이 차이가 있는지 확인해도 좋을 것 같다.
+
+
+
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/100903674/173194264-19d42cb6-12ad-4b58-9cd5-56d594932d01.gif)
+
+
